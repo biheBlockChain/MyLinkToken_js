@@ -1,0 +1,26 @@
+{
+    "manifest_version": 2,
+    "name": "MyLinkToken",
+    "description": "开源链克口袋，MyLinkToken",
+    "icons":
+    {
+        "16": "images/logo16.png",
+        "48": "images/logo48.png",
+        "128": "images/logo128.png"
+    },
+    "version": "0.1",
+    "browser_action": {
+        "default_icon": "images/logo.png",
+        "default_title": "开源链克口袋，MyLinkToken",
+        "default_popup": "html/popup.html"
+    },
+    "permissions": [
+        "https://walletapi.onethingpcs.com/",
+        "tabs",
+        "activeTab",
+        "webRequest",
+        "webRequestBlocking",
+        "notifications",
+        "storage"
+    ]
+}
